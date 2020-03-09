@@ -1,0 +1,36 @@
+.App {
+  text-align: center;                    /* aligning whole webpage*/
+}
+
+.Keypad {
+  margin-top:-23px;                      /* bringing buttons up to the result component*/
+}
+.Button1{
+  padding: 20px 32px;                   /* makes the buttons bigger*/
+  margin-left: -5px;                    /* make the buttons closer to one another*/
+  font-size:20px;
+  background-color:rgb(7, 7, 7);
+  color:white;
+}
+.Button2{
+  
+  padding: 20px 32px; 
+  font-size:20px;
+  margin-left: -5px;
+  background-color:gray;
+  color:black;
+}
+.Result{
+  margin-left: 563px;                  /* aligning result part with the buttons*/
+  margin-right: 570px;                 /* aligning result part with the buttons*/
+  border-style: ridge;                 /* creating border around the result*/
+  border-color: black;
+  font-size:20px;
+  padding:30px;                        /* increase size of box*/
+}
+
+.br{                                   /* changing <br> to have less space between buttons*/
+  display: block;                    
+  content: ""; 
+  margin-top: -9px; 
+}
